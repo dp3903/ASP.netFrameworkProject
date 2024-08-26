@@ -1,0 +1,54 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+#userName {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#userName:focus,
+#userName:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+#password {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#password:focus,
+#password:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+#confirmPassword {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#confirmPassword:focus,
+#confirmPassword:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+#registerbtn {
+    margin-left: 90px;
+    height: 30px;
+    aspect-ratio: 3/1;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+#registerbtn:focus,
+#registerbtn:hover {
+    box-shadow: 0 0 5px grey;
+    border: 1px solid black;
+    outline: none;
+}
