@@ -3,8 +3,42 @@
   "WorkspaceRootPath": "E:\\Visual-studio-Apps\\CE34_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__VISUAL_STUDIO_APPS_CE34_PROJECT_CE34_PROJECT_APP_DATA_BLOGAPP.MDF/True/SqlTable/dbo.blogs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|E:\\Visual-studio-Apps\\CE34_Project\\ce34_project\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__VISUAL_STUDIO_APPS_CE34_PROJECT_CE34_PROJECT_APP_DATA_BLOGAPP.MDF/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|E:\\Visual-studio-Apps\\CE34_Project\\ce34_project\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|E:\\Visual-studio-Apps\\CE34_Project\\ce34_project\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|E:\\Visual-studio-Apps\\CE34_Project\\ce34_project\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +53,125 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "homepage.aspx.cs",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx.cs",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx.cs",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx.cs",
+              "RelativeToolTip": "CE34_Project\\homepage.aspx.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAADNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T05:31:07.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "homepage.css",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.css",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.css",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.css",
+              "RelativeToolTip": "CE34_Project\\homepage.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-28T05:18:28.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.html",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\home.html",
+              "RelativeDocumentMoniker": "CE34_Project\\home.html",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\home.html",
+              "RelativeToolTip": "CE34_Project\\home.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-26T12:09:57.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "homepage.aspx",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx",
+              "RelativeToolTip": "CE34_Project\\homepage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-28T05:30:53.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.blogs [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__VISUAL_STUDIO_APPS_CE34_PROJECT_CE34_PROJECT_APP_DATA_BLOGAPP.MDF/True/SqlTable/dbo.blogs.sql",
+              "ToolTip": "dbo.blogs [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-28T05:25:39.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__VISUAL_STUDIO_APPS_CE34_PROJECT_CE34_PROJECT_APP_DATA_BLOGAPP.MDF/True/SqlTable/dbo.users.sql",
+              "ToolTip": "dbo.users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-28T05:11:53.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignIn.aspx.cs",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignIn.aspx.cs",
+              "RelativeDocumentMoniker": "CE34_Project\\SignIn.aspx.cs",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignIn.aspx.cs",
+              "RelativeToolTip": "CE34_Project\\SignIn.aspx.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:48:07.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "CE34_Project\\SignUp.aspx.cs",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignUp.aspx.cs",
+              "RelativeToolTip": "CE34_Project\\SignUp.aspx.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwC0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:13:01.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SignIn.aspx",
               "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignIn.aspx",
               "RelativeDocumentMoniker": "CE34_Project\\SignIn.aspx",
               "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignIn.aspx",
               "RelativeToolTip": "CE34_Project\\SignIn.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-08-20T13:20:57.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignUp.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\SignUp.aspx",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\SignUp.aspx",
+              "RelativeToolTip": "CE34_Project\\SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-26T12:09:11.432Z",
               "EditorCaption": ""
             }
           ]

@@ -1,42 +1,89 @@
-﻿*{
-    box-sizing:border-box;
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    margin-top: 2em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
 
-#userName{
-    border-radius: 10px;
-    outline: none;
-    border: 1px solid grey;
-    padding: 5px;
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
-#userName:focus,
-#userName:hover {
-    box-shadow: 0 0 5px grey;
+#form1 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
 }
 
-#password {
-    border-radius: 10px;
-    outline: none;
-    border: 1px solid grey;
-    padding: 5px;
+table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-#password:focus,
-#password:hover {
-    box-shadow: 0 0 5px grey;
+    table td {
+        padding: 10px 0;
+    }
+
+label {
+    font-weight: bold;
+    color: #555;
 }
 
-#loginbtn{
-    margin-left:90px;
-    height: 30px;
-    aspect-ratio: 3/1;
-    border-radius: 30px;
-    border: 1px solid black;
+#userName, #password {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
 }
 
-#loginbtn:focus,
-#loginbtn:hover {
-    box-shadow: 0 0 5px grey;
-    border: 1px solid black;
-    outline: none;
+    #userName:hover, #password:hover {
+        border-color: #007bff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+#loginbtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #loginbtn:hover {
+        background-color: #0056b3;
+    }
+
+#HyperLink1 {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    #HyperLink1:hover {
+        text-decoration: underline;
+    }
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #d9534f;
 }

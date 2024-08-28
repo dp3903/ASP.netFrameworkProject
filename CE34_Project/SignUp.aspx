@@ -35,7 +35,8 @@
                 </td>
                 <td>
                     <asp:TextBox ID="confirmPassword" runat="server" AccessKey="c" ToolTip="Re-Enter/Confirm Password" TextMode="Password"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="confirmPasswordValidator" runat="server" ControlToValidate="confirmPassword" ErrorMessage="Please confirm the Password." ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="confirmPasswordValidator" runat="server" ControlToValidate="confirmPassword" ErrorMessage="Please confirm the Password." ForeColor="Red" SetFocusOnError="True" Display="Dynamic"></asp:RequiredFieldValidator>
+                    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="password" ControlToValidate="confirmPassword" Display="Dynamic" ErrorMessage="Confirm Password must be equal to Password." ForeColor="Red" SetFocusOnError="True"></asp:CompareValidator>
                 </td>
             </tr>
         </table>
@@ -44,8 +45,10 @@
         <asp:Button ID="registerbtn" runat="server" Text="Sign up" OnClick="registerbtn_Click" />
   
         <p>
-            Already have an account? <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/SignIn.aspx" Target="SignIn.aspx">Go to sign-in</asp:HyperLink>
+            Already have an account? <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/SignIn.aspx">Go to sign-in</asp:HyperLink>
         </p>
+  
+        <asp:Label ID="message" runat="server" CssClass="message" Text="Label" Visible="False"></asp:Label>
   
     </form>
 </body>

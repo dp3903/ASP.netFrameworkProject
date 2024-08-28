@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sing-in</title>
+    <title>Sign-in</title>
     <link href="~/signin.css" rel="stylesheet" />
 </head>
 <body>
@@ -13,7 +13,7 @@
         <table>
             <tr>
                 <td> 
-                    <label for="userName">User Name:</label>
+                    <label for="userName">Username:</label>
                 </td>
                 <td>
                      <asp:TextBox ID="userName" runat="server" AccessKey="u" ToolTip="Enter Username"></asp:TextBox>
@@ -38,9 +38,10 @@
         <asp:Button ID="loginbtn" runat="server" OnClick="loginbtn_Click" Text="Sign In" />
        
          <p>
-            Don't have an account? <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/SignUp.aspx" Target="SignUp.aspx">Register Here.</asp:HyperLink>
+            Don't have an account? <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/SignUp.aspx">Register Here.</asp:HyperLink>
         </p>
        
+        <asp:Label ID="message" runat="server" CssClass="message" Text="Label" Visible="False"></asp:Label>
         
     </form>
 </body>

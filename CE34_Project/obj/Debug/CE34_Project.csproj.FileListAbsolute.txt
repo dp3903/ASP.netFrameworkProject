@@ -116,3 +116,16 @@ E:\Visual-studio-Apps\CE34_Project\CE34_Project\obj\Debug\CE34_Project.csproj.Co
 E:\Visual-studio-Apps\CE34_Project\CE34_Project\obj\Debug\CE34_Pro.101E020C.Up2Date
 E:\Visual-studio-Apps\CE34_Project\CE34_Project\obj\Debug\CE34_Project.dll
 E:\Visual-studio-Apps\CE34_Project\CE34_Project\obj\Debug\CE34_Project.pdb
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\Microsoft.Web.Infrastructure.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.Helpers.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.Mvc.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.Razor.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.WebPages.Deployment.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.WebPages.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.WebPages.Razor.dll
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.Helpers.xml
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.Mvc.xml
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.Razor.xml
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.WebPages.xml
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.WebPages.Deployment.xml
+E:\Visual-studio-Apps\CE34_Project\CE34_Project\bin\System.Web.WebPages.Razor.xml
