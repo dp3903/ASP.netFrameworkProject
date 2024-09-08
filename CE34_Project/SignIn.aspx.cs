@@ -37,7 +37,7 @@ namespace CE34_Project
                         if (rd.HasRows)
                         {
                             Session["username"] = user;
-                            Response.Redirect("~/home.html");
+                            Response.Redirect("~/homepage.aspx");
                         }
                         else
                         {

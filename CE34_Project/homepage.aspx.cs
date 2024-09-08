@@ -36,7 +36,7 @@ namespace CE34_Project
                                 //Response.Write(rd.GetValue(1));
                                 //Response.Write(rd.GetValue(2));
                                 //Response.Write(rd.GetValue(3));
-                                content.Text += "<fieldset class=\"blog\">\r\n        <legend class=\"blog-title\">" + rd.GetValue(1) + "</legend>\r\n        <header class=\"blog-author\">" + rd.GetValue(3) + "</header>\r\n        <p class=\"blog-body\">" + rd.GetValue(2) + "</p>\r\n    </fieldset>";
+                                content.Text += "<fieldset class=\"blog\">\r\n        <legend class=\"blog-title\">" + rd.GetValue(1) + "</legend>\r\n        <header class=\"blog-author\">" + rd.GetValue(4) + "</header>\r\n        <p class=\"blog-body\">" + rd.GetValue(2) + "</p>\r\n    </fieldset>";
                             }
                         }
                         rd.Close();
@@ -49,6 +49,17 @@ namespace CE34_Project
                     Response.Write(ex.Message);
                 }
             }
+        }
+
+        protected void createbtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/newBlog.aspx");
+        }
+
+        protected void signoutbtn_Click(object sender, EventArgs e)
+        {
+            Session["username"] = null;
+            Response.Redirect("~/SignIn.aspx");
         }
     }
 }

@@ -8,9 +8,22 @@
     <link href="~/homepage.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Blog Application</h1>
-    
-        <asp:Label ID="content" runat="server" CssClass="content" Text="Label"></asp:Label>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <p id="app-header">Blog Application</p>
+
+        <ul class="navbar-menu">
+            <form runat="server">
+                <asp:Button ID="createbtn" runat="server" CssClass="navbar-link" Text="Create-blog" OnClick="createbtn_Click" />
+                <asp:Button ID="signoutbtn" runat="server" CssClass="navbar-link" Text="Sign-Out" OnClick="signoutbtn_Click" />
+            </form>
+        </ul>
+    </nav>
+
+    <h1>Blogs</h1>
+
+    <asp:Label ID="content" runat="server" CssClass="content" Text="Label"></asp:Label>
     
 </body>
 </html>

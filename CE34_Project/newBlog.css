@@ -1,0 +1,138 @@
+﻿/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Form styles */
+form#newblog {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table.auto-style1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+    table.auto-style1 tr td {
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+    /* Labels */
+    table.auto-style1 label {
+        font-weight: bold;
+        color: #555;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+/* Input styles */
+.textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+    .textbox:hover,
+    .textbox:focus {
+        border-color: #007bff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    #body{
+        height: 100px;
+        resize: none;
+    }
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* Button styles */
+.createbtn {
+    box-sizing:border-box;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px;
+}
+
+    .createbtn:hover {
+        background-color: #0056b3;
+    }
+
+.cancelbtn {
+    box-sizing: border-box;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px;
+}
+
+    .cancelbtn:hover {
+        background-color: darkred;
+    }
+
+/* Label for creator */
+#creator {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+    form#newblog {
+        padding: 15px;
+    }
+
+    .createbtn {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #d9534f;
+}
