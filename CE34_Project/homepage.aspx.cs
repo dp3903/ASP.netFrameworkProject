@@ -61,5 +61,10 @@ namespace CE34_Project
             Session["username"] = null;
             Response.Redirect("~/SignIn.aspx");
         }
+
+        protected void searchbtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/SearchBlog.aspx");
+        }
     }
 }

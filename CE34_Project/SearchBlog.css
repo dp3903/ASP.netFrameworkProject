@@ -1,0 +1,96 @@
+﻿/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Heading styling */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Search form styling */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s ease;
+}
+
+    .search-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Search results styling */
+.search-results {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.blog-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.blog-title {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.blog-author {
+    color: #777;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.blog-body {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .search-input {
+        width: 200px;
+    }
+
+    .search-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .blog-card {
+        padding: 15px;
+    }
+}

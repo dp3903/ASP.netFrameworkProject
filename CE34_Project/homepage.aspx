@@ -16,6 +16,7 @@
         <ul class="navbar-menu">
             <form runat="server">
                 <asp:Button ID="createbtn" runat="server" CssClass="navbar-link" Text="Create-blog" OnClick="createbtn_Click" />
+                <asp:Button ID="searchbtn" runat="server" CssClass="navbar-link" Text="Search" OnClick="searchbtn_Click" />
                 <asp:Button ID="signoutbtn" runat="server" CssClass="navbar-link" Text="Sign-Out" OnClick="signoutbtn_Click" />
             </form>
         </ul>

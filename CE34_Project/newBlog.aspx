@@ -53,7 +53,7 @@
         
         <!-- #region name -->
         <p class="btns">
-            <asp:Button runat="server" OnClick="cancelbtn_Click" ID="cancelbtn" AccessKey="c" CssClass="cancelbtn" Text="Cancel" />
+            <asp:Button runat="server" OnClick="cancelbtn_Click" ID="cancelbtn" AccessKey="c" CssClass="cancelbtn" Text="Cancel" CausesValidation="False" UseSubmitBehavior="False" />
             <asp:Button runat="server" OnClick="createbtn_Click" ID="createbtn" AccessKey="s" CssClass="createbtn" Text="Create" />
         </p>
 
