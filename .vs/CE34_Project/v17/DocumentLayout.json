@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netcoreproject-main\\ce34_project\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netcoreproject-main\\ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 341,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "homepage.aspx",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netCoreProject-main\\CE34_Project\\homepage.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netCoreProject-main\\CE34_Project\\homepage.aspx",
+              "RelativeToolTip": "CE34_Project\\homepage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-13T09:37:09.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
