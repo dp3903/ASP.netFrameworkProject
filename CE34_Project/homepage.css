@@ -1,0 +1,134 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #4A4A4A;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+#app-header {
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+}
+
+    .navbar-menu form {
+        margin: 0;
+    }
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-link {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+    .navbar-link:hover {
+        background-color: #ffffff;
+        color: #4A4A4A;
+        border-color: #4A4A4A;
+    }
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.blog {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%; 
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-title,
+.blog-author,
+.blog-body {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.blog-author {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.blog-body {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .blog {
+        width: 95%;
+    }
+}
