@@ -98,6 +98,8 @@
     <Content Include="newBlog.css" />
     <Content Include="SearchBlog.aspx" />
     <Content Include="SearchBlog.css" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Profile.css" />
     <Content Include="SignIn.aspx" />
     <Content Include="signin.css" />
     <Content Include="SignUp.aspx" />
@@ -111,6 +113,13 @@
     </Compile>
     <Compile Include="homepage.aspx.designer.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="newBlog.aspx.cs">
       <DependentUpon>newBlog.aspx</DependentUpon>

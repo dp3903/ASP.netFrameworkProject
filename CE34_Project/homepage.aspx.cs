@@ -1,70 +1,61 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
-using System.Data.SqlTypes;
 using System.Web.Configuration;
+using System.Web.UI;
 
 namespace CE34_Project
 {
-    public partial class homepage : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            if (!IsPostBack)
-            {
-                content.Text = "";
-                String query = "SELECT * FROM blogs";
-                SqlConnection con = new SqlConnection();
-                con.ConnectionString = WebConfigurationManager.ConnectionStrings["BlogCon"].ConnectionString.ToString();
-                try
-                {
-                    using (con)
-                    {
-                        SqlCommand cmd = new SqlCommand(query, con);
-                        con.Open();
-                        SqlDataReader rd = cmd.ExecuteReader();
-                        if (rd != null)
-                        {
-                            while (rd.Read())
-                            {
-                                //Response.Write(rd.GetValue(0));
-                                //Response.Write(rd.GetValue(1));
-                                //Response.Write(rd.GetValue(2));
-                                //Response.Write(rd.GetValue(3));
-                                content.Text += "<fieldset class=\"blog\">\r\n        <legend class=\"blog-title\">" + rd.GetValue(1) + "</legend>\r\n        <header class=\"blog-author\">" + rd.GetValue(4) + "</header>\r\n        <p class=\"blog-body\">" + rd.GetValue(2) + "</p>\r\n    </fieldset>";
-                            }
-                        }
-                        rd.Close();
-                        con.Close();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Response.Write(ex.Message);
-                }
-            }
-        }
+	public partial class homepage : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			if (!IsPostBack)
+			{
+				LoadBlogs();
+			}
+		}
 
-        protected void createbtn_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/newBlog.aspx");
-        }
+		private void LoadBlogs()
+		{
+			string query = "SELECT title, author, body FROM blogs";
+			using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["BlogCon"].ConnectionString))
+			{
+				try
+				{
+					SqlCommand cmd = new SqlCommand(query, con);
+					con.Open();
+					SqlDataReader rd = cmd.ExecuteReader();
 
-        protected void signoutbtn_Click(object sender, EventArgs e)
-        {
-            Session["username"] = null;
-            Response.Redirect("~/SignIn.aspx");
-        }
+					DataTable dt = new DataTable();
+					dt.Load(rd); // Load data into a DataTable
 
-        protected void searchbtn_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/SearchBlog.aspx");
-        }
-    }
+					BlogRepeater.DataSource = dt;
+					BlogRepeater.DataBind();
+
+					rd.Close();
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine(ex.Message);
+				}
+			}
+		}
+
+		protected void createbtn_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("~/newBlog.aspx");
+		}
+
+		protected void signoutbtn_Click(object sender, EventArgs e)
+		{
+			Session["username"] = null;
+			Response.Redirect("~/SignIn.aspx");
+		}
+
+		protected void profilebtn_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("~/Profile.aspx");
+		}
+	}
 }

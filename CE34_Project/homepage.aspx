@@ -17,14 +17,24 @@
             <form runat="server">
                 <asp:Button ID="createbtn" runat="server" CssClass="navbar-link" Text="Create-blog" OnClick="createbtn_Click" />
                 <asp:Button ID="searchbtn" runat="server" CssClass="navbar-link" Text="Search" OnClick="searchbtn_Click" />
-                <asp:Button ID="signoutbtn" runat="server" CssClass="navbar-link" Text="Sign-Out" OnClick="signoutbtn_Click" />
+                <asp:Button ID="profilebtn" runat="server" Text="Profile" OnClick="profilebtn_Click" CssClass="navbar-link" />
+                <asp:Button ID="signoutbtn" runat="server" CssClass="navbar-link" Text="Sign Out" OnClick="signoutbtn_Click" />
             </form>
         </ul>
     </nav>
 
-    <h1>Blogs</h1>
+    <div class="center-container">
+        <h1>My Blogs</h1>
+        <asp:Repeater ID="BlogRepeater" runat="server">
+            <ItemTemplate>
+                <fieldset class="blog">
+                    <legend class="blog-title"><%# Eval("title") %></legend>
+                    <header class="blog-author"><%# Eval("author") %></header>
+                    <p class="blog-body"><%# Eval("body") %></p>
+                </fieldset>
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
 
-    <asp:Label ID="content" runat="server" CssClass="content" Text="Label"></asp:Label>
-    
 </body>
 </html>

@@ -29,18 +29,18 @@ table.auto-style1 {
     margin: 0 auto;
 }
 
-    table.auto-style1 tr td {
-        padding: 10px;
-        vertical-align: middle;
-    }
+table.auto-style1 tr td {
+    padding: 10px;
+    vertical-align: middle;
+}
 
-    /* Labels */
-    table.auto-style1 label {
-        font-weight: bold;
-        color: #555;
-        display: block;
-        margin-bottom: 5px;
-    }
+/* Labels */
+table.auto-style1 label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
 
 /* Input styles */
 .textbox {
@@ -51,17 +51,18 @@ table.auto-style1 {
     font-size: 14px;
     color: #333;
 }
-    .textbox:hover,
-    .textbox:focus {
-        border-color: #007bff;
-        outline: none;
-        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    }
 
-    #body{
-        height: 100px;
-        resize: none;
-    }
+.textbox:hover,
+.textbox:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#body{
+    height: 100px;
+    resize: none;
+}
 
 .btns{
     display: flex;
@@ -88,9 +89,9 @@ table.auto-style1 {
     margin: 10px;
 }
 
-    .createbtn:hover {
-        background-color: #0056b3;
-    }
+.createbtn:hover {
+    background-color: #0056b3;
+}
 
 .cancelbtn {
     box-sizing: border-box;
@@ -108,11 +109,10 @@ table.auto-style1 {
     margin: 10px;
 }
 
-    .cancelbtn:hover {
-        background-color: darkred;
-    }
+.cancelbtn:hover {
+    background-color: darkred;
+}
 
-/* Label for creator */
 #creator {
     font-size: 14px;
     color: #555;

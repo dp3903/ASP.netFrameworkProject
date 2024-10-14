@@ -74,11 +74,13 @@ h1 {
     margin-bottom: 30px;
 }
 
-#content{
-    width: 100%;
+.center-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
 }
 
 .blog {
@@ -87,9 +89,29 @@ h1 {
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
-    width: 80%;
-    min-width: 600px;
+    width: 80%; 
+    max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-title,
+.blog-author,
+.blog-body {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
 }
 
 .blog-title {
@@ -115,12 +137,6 @@ h1 {
     color: #333;
     padding: 0 10px;
     text-align: justify;
-}
-
-fieldset {
-    border: none; /* Remove default border */
-    margin: 0;
-    padding: 0;
 }
 
 @media (max-width: 768px) {
