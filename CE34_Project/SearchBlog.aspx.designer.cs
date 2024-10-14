@@ -24,6 +24,15 @@ namespace CE34_Project
         protected global::System.Web.UI.HtmlControls.HtmlForm searchForm;
 
         /// <summary>
+        /// backbtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button backbtn;
+
+        /// <summary>
         /// searchInput control.
         /// </summary>
         /// <remarks>

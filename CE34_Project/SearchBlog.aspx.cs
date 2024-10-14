@@ -13,6 +13,10 @@ namespace CE34_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["username"] == null)
+            {
+                Response.Redirect("~/SignIn.aspx");
+            }
             if (!IsPostBack)
             {
                 show();
@@ -54,6 +58,11 @@ namespace CE34_Project
         protected void searchButton_Click(object sender, EventArgs e)
         {
             show();
+        }
+
+        protected void backbtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/homepage.aspx");
         }
     }
 }

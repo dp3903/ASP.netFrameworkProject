@@ -10,10 +10,15 @@ namespace CE34_Project
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
+			if ( Session["username"] == null)
+			{
+				Response.Redirect("~/SignIn.aspx");
+			}
 			if (!IsPostBack)
 			{
 				LoadBlogs();
 			}
+			
 		}
 
 		private void LoadBlogs()
@@ -57,5 +62,10 @@ namespace CE34_Project
 		{
 			Response.Redirect("~/Profile.aspx");
 		}
-	}
+
+        protected void searchbtn_Click(object sender, EventArgs e)
+        {
+			Response.Redirect("~/SearchBlog.aspx");
+        }
+    }
 }

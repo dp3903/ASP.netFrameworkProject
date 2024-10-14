@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Visual-studio-Apps\\CE34_Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "homepage.aspx.cs",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx.cs",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx.cs",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx.cs",
+              "RelativeToolTip": "CE34_Project\\homepage.aspx.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwD4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:04:52.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "homepage.aspx",
+              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx",
+              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx*",
+              "RelativeToolTip": "CE34_Project\\homepage.aspx*",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-14T04:04:09.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

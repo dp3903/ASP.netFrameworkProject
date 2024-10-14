@@ -10,7 +10,11 @@ namespace CE34_Project
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			if (!IsPostBack)
+            if (Session["username"] == null)
+            {
+                Response.Redirect("~/SignIn.aspx");
+            }
+            if (!IsPostBack)
 			{
 				LoadUserBlogs();
 			}

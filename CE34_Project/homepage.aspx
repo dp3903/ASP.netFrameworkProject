@@ -24,7 +24,7 @@
     </nav>
 
     <div class="center-container">
-        <h1>My Blogs</h1>
+        <h1>All Blogs</h1>
         <asp:Repeater ID="BlogRepeater" runat="server">
             <ItemTemplate>
                 <fieldset class="blog">

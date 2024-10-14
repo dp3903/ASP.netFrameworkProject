@@ -33,6 +33,15 @@ namespace CE34_Project
         protected global::System.Web.UI.WebControls.Button searchbtn;
 
         /// <summary>
+        /// profilebtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button profilebtn;
+
+        /// <summary>
         /// signoutbtn control.
         /// </summary>
         /// <remarks>
@@ -42,30 +51,12 @@ namespace CE34_Project
         protected global::System.Web.UI.WebControls.Button signoutbtn;
 
         /// <summary>
-        /// content control.
+        /// BlogRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label content;
-
-		/// <summary>
-		/// profilebtn control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button profilebtn;
-
-		/// <summary>
-		/// BlogRepeater control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Repeater BlogRepeater;
-	}
+        protected global::System.Web.UI.WebControls.Repeater BlogRepeater;
+    }
 }

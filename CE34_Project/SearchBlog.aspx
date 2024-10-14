@@ -13,6 +13,7 @@
     
     <!-- Search Form -->
     <form id="searchForm" runat="server" class="search-form">
+        <asp:Button ID="backbtn" runat="server" Text="< Back" OnClick="backbtn_Click" />
         <div class="search-container">
             <asp:TextBox ID="searchInput" runat="server" CssClass="search-input" Placeholder="Search by blog title..."></asp:TextBox>
             <asp:Button ID="searchButton" runat="server" CssClass="search-button" Text="Search" OnClick="searchButton_Click" />
