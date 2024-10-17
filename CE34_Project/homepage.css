@@ -139,6 +139,17 @@ fieldset {
     text-align: justify;
 }
 
+/* Remove underline and prevent color change on visited links */
+.center-container a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the same color as surrounding text */
+}
+
+    .center-container a:visited {
+        color: inherit; /* Prevent color change when visited */
+    }
+
+
 @media (max-width: 768px) {
     .blog {
         width: 95%;

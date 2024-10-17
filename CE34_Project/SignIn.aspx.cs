@@ -20,7 +20,7 @@ namespace CE34_Project
         {
             String user = userName.Text;
             String pass = password.Text;
-            String Query = "SELECT * FROM users WHERE username=@user AND password=@pass";
+            String Query = "SELECT Id, username FROM users WHERE username=@user AND password=@pass";
             SqlConnection con = new SqlConnection();
             con.ConnectionString = WebConfigurationManager.ConnectionStrings["BlogCon"].ConnectionString;
             try
@@ -32,27 +32,25 @@ namespace CE34_Project
                     cmd.Parameters.AddWithValue("@pass", pass);
                     con.Open();
                     SqlDataReader rd = cmd.ExecuteReader();
-                    if (rd != null)
+                    if (rd != null && rd.HasRows)
                     {
-                        if (rd.HasRows)
-                        {
-                            Session["username"] = user;
-                            Response.Redirect("~/homepage.aspx");
-                        }
-                        else
-                        {
-                            message.Visible = true;
-                            message.Text = "Invalid Username or Password.";
-                        }
+                        rd.Read();
+                        Session["userId"] = rd["Id"]; // Store the user ID
+                        Session["username"] = user; // Store the username if needed
+                        Response.Redirect("~/homepage.aspx"); // Redirect to homepage or keep on the same page
+                    }
+                    else
+                    {
+                        message.Visible = true;
+                        message.Text = "Invalid Username or Password.";
                     }
                     rd.Close();
-                    con.Close();
                 }
             }
             catch (Exception ex)
             {
                 message.Visible = true;
-                message.Text = "Some error has occured, please try again.";
+                message.Text = "Some error has occurred, please try again.";
                 Console.WriteLine(ex.ToString());
                 return;
             }

@@ -1,0 +1,130 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.back-button {
+    margin: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #4A4A4A;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+    .back-button:hover {
+        background-color: #4A4A4A;
+        color: white;
+        border-color: black;
+    }
+
+.blog-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.blog-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blog-author {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.blog-body {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.comment-input {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* Style for the submit comment button */
+#submitCommentBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    #submitCommentBtn:hover {
+        background-color: #0056b3;
+    }
+
+/* Style for the comments section */
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .comment legend {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .comment p {
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .blog-details-container {
+        width: 95%;
+    }
+
+    .back-button {
+        margin: 10px;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .comment-input {
+        width: 100%;
+    }
+
+    #submitCommentBtn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .comment {
+        width: 95%;
+    }
+}

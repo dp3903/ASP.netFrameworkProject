@@ -17,11 +17,11 @@
     background-color: white;
 }
 
-#backbtn:hover {
-    background-color: #4A4A4A;
-    color: white;
-    border-color: black;
-}
+    #backbtn:hover {
+        background-color: #4A4A4A;
+        color: white;
+        border-color: black;
+    }
 
 .center-container {
     display: flex;
@@ -45,13 +45,6 @@ h2 {
     padding: 20px;
 }
 
-#UserContent {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 .blog {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -66,11 +59,23 @@ h2 {
 .blog-title {
     font-size: 1.5em;
     font-weight: bold;
-    color: #007bff;
     margin-bottom: 10px;
     padding: 0 10px;
     text-align: left;
 }
+
+    .blog-title a {
+        color: #007bff; /* Static color for links */
+        text-decoration: none; /* Remove underline */
+    }
+
+        .blog-title a:hover {
+            text-decoration: none; /* Ensure no underline on hover */
+        }
+
+        .blog-title a:visited {
+            color: #007bff; /* Ensure visited links remain the same color */
+        }
 
 .blog-author {
     font-size: 1em;

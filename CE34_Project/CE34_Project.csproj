@@ -92,6 +92,8 @@
     <Content Include="App_Data\BlogApp_log.ldf">
       <DependentUpon>BlogApp.mdf</DependentUpon>
     </Content>
+    <Content Include="BlogDetails.aspx" />
+    <Content Include="BlogDetails.css" />
     <Content Include="homepage.aspx" />
     <Content Include="homepage.css" />
     <Content Include="newBlog.aspx" />
@@ -107,6 +109,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlogDetails.aspx.cs">
+      <DependentUpon>BlogDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogDetails.aspx.designer.cs">
+      <DependentUpon>BlogDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

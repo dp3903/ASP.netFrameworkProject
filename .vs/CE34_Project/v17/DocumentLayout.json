@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Visual-studio-Apps\\CE34_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|e:\\visual-studio-apps\\ce34_project\\ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|c:\\users\\nisar\\onedrive\\documents\\web application development\\project\\asp.netframeworkproject\\ce34_project\\blogdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42685BD7-7907-427C-8F01-10FD2C26C02A}|CE34_Project\\CE34_Project.csproj|solutionrelative:ce34_project\\blogdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +37,110 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 415,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "homepage.css",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\homepage.css",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.css",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\homepage.css",
+              "RelativeToolTip": "CE34_Project\\homepage.css",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T05:53:52.339Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Profile.css",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\Profile.css",
+              "RelativeDocumentMoniker": "CE34_Project\\Profile.css",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\Profile.css",
+              "RelativeToolTip": "CE34_Project\\Profile.css",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T05:53:44.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "homepage.aspx.cs",
-              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\homepage.aspx.cs",
               "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx.cs",
-              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx.cs",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\homepage.aspx.cs",
               "RelativeToolTip": "CE34_Project\\homepage.aspx.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAcwD4AAAAqAAAA",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T04:04:52.486Z",
+              "WhenOpened": "2024-10-17T05:48:28.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\Profile.aspx.cs",
+              "RelativeDocumentMoniker": "CE34_Project\\Profile.aspx.cs",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\Profile.aspx.cs",
+              "RelativeToolTip": "CE34_Project\\Profile.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T05:48:18.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "homepage.aspx",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\homepage.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\homepage.aspx",
+              "RelativeToolTip": "CE34_Project\\homepage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-17T05:47:42.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "homepage.aspx",
-              "DocumentMoniker": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx",
-              "RelativeDocumentMoniker": "CE34_Project\\homepage.aspx",
-              "ToolTip": "E:\\Visual-studio-Apps\\CE34_Project\\CE34_Project\\homepage.aspx*",
-              "RelativeToolTip": "CE34_Project\\homepage.aspx*",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\Profile.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\Profile.aspx",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\Profile.aspx",
+              "RelativeToolTip": "CE34_Project\\Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-14T04:04:09.549Z",
+              "WhenOpened": "2024-10-17T05:46:01.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogDetails.aspx",
+              "DocumentMoniker": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\BlogDetails.aspx",
+              "RelativeDocumentMoniker": "CE34_Project\\BlogDetails.aspx",
+              "ToolTip": "C:\\Users\\nisar\\OneDrive\\Documents\\Web Application Development\\Project\\ASP.netFrameworkProject\\CE34_Project\\BlogDetails.aspx",
+              "RelativeToolTip": "CE34_Project\\BlogDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-17T05:45:59.042Z",
               "EditorCaption": ""
             }
           ]

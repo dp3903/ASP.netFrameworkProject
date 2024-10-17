@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Button ID="backbtn" runat="server" Text="< Back" OnClick="backbtn_Click" />
+        <asp:Button ID="backbtn" runat="server" Text="Back to Homepage" OnClick="backbtn_Click" CssClass="back-button" />
 
         <div class="center-container">
             <h2>User Profile</h2>
@@ -20,10 +20,12 @@
             <asp:Repeater ID="BlogRepeater" runat="server">
                 <ItemTemplate>
                     <fieldset class="blog">
-                        <legend class="blog-title"><%# Eval("title") %></legend>
+                        <legend class="blog-title">
+                            <a href="BlogDetails.aspx?blogId=<%# Eval("Id") %>"><%# Eval("title") %></a>
+                        </legend>
                         <header class="blog-author"><%# Eval("author") %></header>
                         <p class="blog-body"><%# Eval("body") %></p>
-                        <asp:Button ID="DeleteButton" runat="server" CommandArgument='<%# Eval("Id") %>' OnClick="DeleteBlog_Click" Text="Delete" CssClass="delete-btn"/>
+                        <asp:Button ID="DeleteBlog" runat="server" Text="Delete" CommandArgument='<%# Eval("Id") %>' OnClick="DeleteBlog_Click" CssClass="delete-button" />
                     </fieldset>
                 </ItemTemplate>
             </asp:Repeater>

@@ -21,33 +21,33 @@ namespace CE34_Project
 			
 		}
 
-		private void LoadBlogs()
-		{
-			string query = "SELECT title, author, body FROM blogs";
-			using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["BlogCon"].ConnectionString))
-			{
-				try
-				{
-					SqlCommand cmd = new SqlCommand(query, con);
-					con.Open();
-					SqlDataReader rd = cmd.ExecuteReader();
+        private void LoadBlogs()
+        {
+            string query = "SELECT Id, title, author, body FROM blogs"; // Include Id
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["BlogCon"].ConnectionString))
+            {
+                try
+                {
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    con.Open();
+                    SqlDataReader rd = cmd.ExecuteReader();
 
-					DataTable dt = new DataTable();
-					dt.Load(rd); // Load data into a DataTable
+                    DataTable dt = new DataTable();
+                    dt.Load(rd); // Load data into a DataTable
 
-					BlogRepeater.DataSource = dt;
-					BlogRepeater.DataBind();
+                    BlogRepeater.DataSource = dt;
+                    BlogRepeater.DataBind();
 
-					rd.Close();
-				}
-				catch (Exception ex)
-				{
-					Console.WriteLine(ex.Message);
-				}
-			}
-		}
+                    rd.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
 
-		protected void createbtn_Click(object sender, EventArgs e)
+        protected void createbtn_Click(object sender, EventArgs e)
 		{
 			Response.Redirect("~/newBlog.aspx");
 		}

@@ -28,7 +28,9 @@
         <asp:Repeater ID="BlogRepeater" runat="server">
             <ItemTemplate>
                 <fieldset class="blog">
-                    <legend class="blog-title"><%# Eval("title") %></legend>
+                    <legend class="blog-title">
+                        <a href="BlogDetails.aspx?blogId=<%# Eval("Id") %>"><%# Eval("title") %></a> <!-- Bind Id in URL -->
+                    </legend>
                     <header class="blog-author"><%# Eval("author") %></header>
                     <p class="blog-body"><%# Eval("body") %></p>
                 </fieldset>
